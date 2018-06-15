@@ -2,3 +2,9 @@
   background-image: url(./images/main.jpg);
   background-size: cover;
 }
+
+.description {
+  background: white;
+  opacity: 0.8;
+  padding: 10px;
+}
