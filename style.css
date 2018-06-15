@@ -3,6 +3,10 @@
   background-size: cover;
 }
 
+.section {
+  padding: 2rem 1.5rem;
+}
+
 .description {
   background: white;
   opacity: 0.8;
