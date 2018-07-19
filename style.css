@@ -12,3 +12,36 @@
   opacity: 0.8;
   padding: 10px;
 }
+
+@-webkit-keyframes typing {
+  from { width: 0 }
+  to { width: 7.9em }
+}
+
+@-moz-keyframes typing {
+  from { width: 0 }
+  to { width: 7.9em }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
+
+.myname {
+  font-family: "Courier New", Consolas, monospace;
+  width: 7.9em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .1em solid black;
+  
+  -webkit-animation: typing 3s steps(13, end), /* # of steps = # of characters */
+                      blink-caret 1s step-end infinite;
+  -moz-animation: typing 3s steps(13, end), /* # of steps = # of characters */
+                      blink-caret 1s step-end infinite;
+}
