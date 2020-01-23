@@ -17,6 +17,33 @@ p {
   padding: 10px;
 }
 
+.products h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.products p {
+  padding: 10px;
+}
+
+.products .app_icons {
+  margin-bottom: 20px;
+}
+
+.products .app_icon {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.products .app_screen {
+  width: 250px;
+  text-align: center;
+}
+
+
+
 @-webkit-keyframes typing {
   from { width: 0 }
   to { width: 7.9em }
